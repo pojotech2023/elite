@@ -27,6 +27,8 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -55,7 +57,8 @@
             flex-grow: 1;
             /* Ensures content takes equal space */
         }
-        .service .service-content-inner:hover .service-content b{
+
+        .service .service-content-inner:hover .service-content b {
             color: var(--bs-white) !important;
         }
     </style>
@@ -76,24 +79,24 @@
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-            <a href="" class="navbar-brand p-0">
-                <!-- <h1 class="m-0"><i class="fa fa-map-marker-alt me-3"></i>KASHVI</h1> -->
-                <img src="img/elite/logo.jpg" alt="Logo" width="100" height="100" style="width: 120px; height: 100px;">            </a>
+            <div class="dsk-logo">
+                <a href="" class="navbar-brand p-0">
+                    <!-- <h1 class="m-0"><i class="fa fa-map-marker-alt me-3"></i>KASHVI</h1> -->
+                    <img src="img/elite/logo.jpg" alt="Logo" style="width: 150px; height: 130px;">
+                </a>
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="about.html" class="nav-item nav-link">About Us</a>
                     <a href="services.html" class="nav-item nav-link active">Services</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
                 </div>
+                <!-- <a href="" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">Book Now</a> -->
             </div>
-            <a href="https://wa.me/919865602608" target="_blank" class="nav-item  whats-app" data-bs-toggle="tooltip"
-                data-bs-placement="bottom" title="Chat with us">
-                <i class="fa-brands fa-whatsapp my-float fs-1 pt-1"></i>
-            </a>
         </nav>
     </div>
     <!-- Navbar & Hero End -->
@@ -115,7 +118,7 @@
     <div class="container-fluid bg-light service py-5">
         <div class="container py-5">
             <div class="mx-auto text-center mb-5" style="max-width: 900px;">
-                <h5 class="section-title px-3">Searvices</h5>
+                <h5 class="section-title px-3">Services</h5>
                 <h1 class="mb-0">Our Services</h1>
                 <p>Comprehensive Tax & Business Solutions</p>
             </div>
@@ -127,10 +130,13 @@
                                 class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 h-100">
                                 <div class="service-content text-start">
                                     <h5 class="mb-4 text-center">GST Services</h5>
-                                    <p class="mb-1 pb-"><b class="text-primary">GST Registration: </b>Hassle-free registration for businesses of all
+                                    <p class="mb-1 pb-"><b class="text-primary">GST Registration: </b>Hassle-free
+                                        registration for businesses of all
                                         sizes.</p>
-                                    <p><b class="text-primary">GST Return Filing: </b>Simplified monthly/quarterly filing services.</p>
-                                    <p><b class="text-primary">GST Compliance Audits </b>Stay compliant and avoid penalties.</p>
+                                    <p><b class="text-primary">GST Return Filing: </b>Simplified monthly/quarterly
+                                        filing services.</p>
+                                    <p><b class="text-primary">GST Compliance Audits </b>Stay compliant and avoid
+                                        penalties.</p>
                                 </div>
                                 <div class="service-icon p-4">
                                     <img src="img/elite/gst.jpg" alt="" class="img-fluid mb-3 text-center">
@@ -142,9 +148,11 @@
                                 class="service-content-inner d-flex align-items-center  bg-white border border-primary rounded p-4 pe-0 h-100">
                                 <div class="service-content text-start">
                                     <h5 class="mb-4 text-center">Income Tax Services </h5>
-                                    <p class="mb-0"><b class="text-primary">Filing for Individuals and Businesses: </b>Timely and error-free
+                                    <p class="mb-0"><b class="text-primary">Filing for Individuals and Businesses:
+                                        </b>Timely and error-free
                                         filings.</p>
-                                    <p class="mb-0"><b class="text-primary">Tax Planning & Advisory:</b> Reduce tax liabilities with smart
+                                    <p class="mb-0"><b class="text-primary">Tax Planning & Advisory:</b> Reduce tax
+                                        liabilities with smart
                                         strategies.</p>
 
                                 </div>
@@ -158,11 +166,14 @@
                                 class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0 h-100">
                                 <div class="service-content text-start">
                                     <h5 class="mb-4 text-center">Business Registration Services</h5>
-                                    <p class="mb-0"><b class="text-primary">Company Incorporation:</b> Private Limited, LLP, and OPC registration
+                                    <p class="mb-0"><b class="text-primary">Company Incorporation:</b> Private Limited,
+                                        LLP, and OPC registration
                                     </p>
-                                    <p class="mb-0"><b class="text-primary">MSME & Startup Registration:</b> Avail benefits and recognition with
+                                    <p class="mb-0"><b class="text-primary">MSME & Startup Registration:</b> Avail
+                                        benefits and recognition with
                                         ease.</p>
-                                    <p class="mb-0"><b class="text-primary">Partnership & Proprietorship Registration:</b> Quick and efficient
+                                    <p class="mb-0"><b class="text-primary">Partnership & Proprietorship
+                                            Registration:</b> Quick and efficient
                                         registration services</p>
 
                                 </div>
@@ -176,11 +187,14 @@
                                 class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0 h-100">
                                 <div class="service-content text-start">
                                     <h5 class="mb-4 text-center">Trust & Society Registration</h5>
-                                    <p class="mb-0"><b class="text-primary">Trust Registration:</b> Legal and efficient setup under Indian Trust
+                                    <p class="mb-0"><b class="text-primary">Trust Registration:</b> Legal and efficient
+                                        setup under Indian Trust
                                         Acts.</p>
-                                    <p class="mb-0"><b class="text-primary">Society Registration:</b> Guidance for societies under the Societies
+                                    <p class="mb-0"><b class="text-primary">Society Registration:</b> Guidance for
+                                        societies under the Societies
                                         Registration Act.</p>
-                                    <p class="mb-0"><b class="text-primary">NGO Registration:</b> Compliance and advisory support for NGOs.</p>
+                                    <p class="mb-0"><b class="text-primary">NGO Registration:</b> Compliance and
+                                        advisory support for NGOs.</p>
                                 </div>
                                 <div class="service-icon p-4">
                                     <img src="img/elite/ser5.jpg" alt="" class="img-fluid mb-3 text-center">
@@ -196,9 +210,12 @@
                                 class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0 h-100">
                                 <div class="service-content text-start">
                                     <h5 class="mb-4 text-center">Other Registrations</h5>
-                                    <p class="mb-1"><b class="text-primary">Import Export Code (IEC): </b>Expand globally with ease.</p>
-                                    <p class="mb-1"><b class="text-primary">ESI & PF Registration:</b> Employee welfare compliance made simple.</p>
-                                    <p class="mb-1"><b class="text-primary">FSSAI License:</b> Get your food business licensed.</p>
+                                    <p class="mb-1"><b class="text-primary">Import Export Code (IEC): </b>Expand
+                                        globally with ease.</p>
+                                    <p class="mb-1"><b class="text-primary">ESI & PF Registration:</b> Employee welfare
+                                        compliance made simple.</p>
+                                    <p class="mb-1"><b class="text-primary">FSSAI License:</b> Get your food business
+                                        licensed.</p>
 
                                 </div>
                                 <div class="service-icon p-4">
@@ -233,26 +250,57 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-12">
-                                <div
-                                    class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0 h-100">
-                                    <div class="service-icon p-4">
-                                        <i class="fas fa-file-invoice-dollar fa-4x text-primary"></i>
-                                    </div>
-                                    <div class="service-content">
-                                        <h5 class="mb-4">Business Structuring & Planning</h5>
-                                        <p class="mb-0"> We assist in structuring your business for tax efficiency
-                                            and long-term growth, offering strategic planning to maximize financial
-                                            benefits.</p>
-                                    </div>
+                        <div class="col-12" style="height: 500px;">
+                            <div
+                                class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 pe-0 h-100">
+                                <div class="service-content text-start">
+                                    <h5 class="mb-4 text-center">Digital Signature Services </h5>
+                                    <p class="mb-0"><b class="text-dark">Digital Signature Issuance & Renewal </b><br>
+                                        We provide legally valid Class 3 DSCs for individuals and organizations, ensuring secure and compliant digital transactions. We also handle quick DSC renewals for uninterrupted access.
+                                    </p>
+                                    <p class="mb-0"><b class="text-primary">Digital Signature for GST, Income Tax & MCA Filings</b><br>
+                                        Simplify your tax and compliance processes with a DSC for:
+                                        <ul>
+                                            <li>GST Registration & Returns Filing</li>
+                                            <li> Income Tax E-Filing</li>
+                                            <li> ROC Filings & MCA Compliance</li>
+                                        </ul>
+                                    </p>
+                                    <p class="mb-0"><b class="text-primary">E-Tendering & E-Procurement Digital Signatures</b><br>
+                                        Ensure seamless participation in government and private tenders with DSCs approved for:
+                                        <ul>
+                                            <li>E-Tendering Platforms</li>
+                                            <li>Government Procurement Portals</li>
+                                            <li>Secure Online Bidding</li>
+                                        </ul>
+                                    </p>
                                 </div>
-                            </div> -->
+                                <!-- <div class="service-icon p-4">
+                                    <img src="img/elite/ser7.png" alt="" class="img-fluid mb-3 text-center">
+                                </div> -->
+                            </div>
+                        </div>
+                        <!-- <div class="col-12">
+                            <div
+                                class="service-content-inner d-flex align-items-center bg-white border border-primary rounded p-4 ps-0 h-100">
+                                <div class="service-icon p-4">
+                                    <i class="fas fa-file-invoice-dollar fa-4x text-primary"></i>
+                                </div>
+                                <div class="service-content">
+                                    <h5 class="mb-4">Business Structuring & Planning</h5>
+                                    <p class="mb-0"> We assist in structuring your business for tax efficiency
+                                        and long-term growth, offering strategic planning to maximize financial
+                                        benefits.</p>
+                                </div>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Services End -->
+     <!-- MSME start -->
     <div class="container-fluid about py-5">
         <div class="container py-5 border border-primary p-5 border-5 shadow">
             <div class="row g-5 align-items-center">
@@ -262,22 +310,35 @@
                 <div class="col-lg-12"
                     style="background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8));">
                     <h5 class="section-about-title pe-3">How We Help MSMEs & Startups</h5>
-                 <p class="mb-4">At Elite Associates, we offer a wide range of services specifically designed to help startups and MSMEs succeed. Our goal is to simplify compliance, boost efficiency, and provide the right guidance to ensure your business thrives.</p>
-                 <h5 class="section-about-title pe-3">Our Specialized Support Includes:</h5>
-                 <p><ul>
-                    <li><b class="text-primary"> Registration Services:</b> Incorporate your business easily and quickly.</li>
-                    <li><b class="text-primary"> Tax Compliance Made Easy:</b> Avoid penalties with timely GST and Income Tax filings.</li>
-                    <li><b class="text-primary"> Loan & Subsidy Assistance: </b> Guidance for availing government schemes and subsidies.</li>
-                    <li><b class="text-primary">Business Consultancy Services:</b> Expert advice on strategy, planning, and operations to maximize growth.</li>
-                    <li><b class="text-primary">E-Tendering Support: </b> Assistance in preparing and submitting tenders for government and private projects.</li>
-                    <li><b class="text-primary">Business Development: </b> Tailored solutions to help you grow your customer base and market presence.</li>
-                    <li><b class="text-primary">Project Development: </b> End-to-end support for planning, execution, and management of business projects.</li>
-                    <li><b class="text-primary">Payroll Management: </b> Efficient and accurate payroll services, ensuring compliance with labor laws and regulations.</li>
-                </ul></p>
+                    <p class="mb-4">At Elite Associates, we offer a wide range of services specifically designed to help
+                        startups and MSMEs succeed. Our goal is to simplify compliance, boost efficiency, and provide
+                        the right guidance to ensure your business thrives.</p>
+                    <h5 class="section-about-title pe-3">Our Specialized Support Includes:</h5>
+                    <p>
+                    <ul>
+                        <li><b class="text-primary"> Registration Services:</b> Incorporate your business easily and
+                            quickly.</li>
+                        <li><b class="text-primary"> Tax Compliance Made Easy:</b> Avoid penalties with timely GST and
+                            Income Tax filings.</li>
+                        <li><b class="text-primary"> Loan & Subsidy Assistance: </b> Guidance for availing government
+                            schemes and subsidies.</li>
+                        <li><b class="text-primary">Business Consultancy Services:</b> Expert advice on strategy,
+                            planning, and operations to maximize growth.</li>
+                        <li><b class="text-primary">E-Tendering Support: </b> Assistance in preparing and submitting
+                            tenders for government and private projects.</li>
+                        <li><b class="text-primary">Business Development: </b> Tailored solutions to help you grow your
+                            customer base and market presence.</li>
+                        <li><b class="text-primary">Project Development: </b> End-to-end support for planning,
+                            execution, and management of business projects.</li>
+                        <li><b class="text-primary">Payroll Management: </b> Efficient and accurate payroll services,
+                            ensuring compliance with labor laws and regulations.</li>
+                    </ul>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
+     <!-- MSME end -->
 
     <!-- Testimonial Start -->
     <!-- <div class="container-fluid testimonial py-5">
@@ -405,9 +466,9 @@
                     <div class="footer-item d-flex flex-column">
                         <h4 class="mb-4 text-white">Company</h4>
                         <a href="index.html"><i class="fas fa-angle-right me-2"></i> Home</a>
-                        <a href="about.html"><i class="fas fa-angle-right me-2"></i> About</a>
+                        <a href="about.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
                         <a href="services.html"><i class="fas fa-angle-right me-2"></i> Service</a>
-                        <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                        <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
 
                     </div>
                 </div>
@@ -446,6 +507,8 @@
     <!-- Copyright End -->
 
     <!-- Back to Top -->
+    <a href="https://wa.me/+919865602608" class="fab-whatsapp" target="_blank">
+        <img src="img/whatsapp.svg" alt="WhatsApp icon" />
     <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i
             class="fa fa-arrow-up"></i></a>
 
