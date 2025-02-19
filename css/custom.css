@@ -29,7 +29,7 @@
 /* Header  */
 /* Header Navbar Styling */
 .navbar {
-  height: 130px;
+  height: 180px;
   /* Fixed navbar height */
   background-color: #ffffff !important;
   /* Keep background white */
@@ -101,8 +101,63 @@
   .carousel-item.active img {
     margin-top: 0;
   }
+
   .navbar-light .navbar-nav .nav-link.active {
-    
+
     color: #d9bf04 !important;
   }
+}
+
+.welcome-title {
+  font-size: 2.5rem;
+  /* Adjust size */
+  text-align: center;
+  opacity: 0;
+  transform: scale(0.8);
+  filter: blur(10px);
+  animation: blurZoom 1.5s ease-in-out forwards;
+}
+
+/* Keyframes for animation */
+@keyframes blurZoom {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+    filter: blur(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+  }
+}
+
+/* style="width: 160px; height: 110px;" */
+.key-service img {
+  width: 100%;
+  max-width: 160px;
+  height: 100px;
+}
+.ser-cont{
+  height: 550px;
+}
+
+@media (max-width: 768px) {
+  .service-content-inner {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .service-icon {
+    padding: 0.5rem;
+  }
+
+  .service-content {
+    text-align: center !important;
+  }
+  .ser-cont{
+    height: 850px;
+  }
+  
 }
